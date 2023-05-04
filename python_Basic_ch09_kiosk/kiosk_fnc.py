@@ -1,6 +1,6 @@
 # Kiosk에 필요한 기능들(함수)
 
-# 1. 세부 메뉴 출력
+# 1. 세부 메뉴 출력하기
 def print_sub_menu(sub_name, sub_price):
     for key, value in sub_name.items():
         print(f"□ {key}.{value}({sub_price[key]}원)")
